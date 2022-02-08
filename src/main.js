@@ -15,7 +15,7 @@ const option = {
   }
 }
 
-const basePath = path.join(__dirname, 'sticker', productId);
+const basePath = path.join(__dirname, '../', 'sticker', productId);
 
 fs.mkdir(basePath, { recursive: true }, (err) => err);
 
